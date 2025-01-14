@@ -398,3 +398,56 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore SQL Server files
+*.bak
+*.mdf
+*.ldf
+*.ndf
+*.sql
+*.db
+*.sqlite
+
+# Ignore JavaScript, jQuery, and AJAX temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.ajax.debug
+
+# Ignore Web.config and sensitive config files
+Web.config
+Web.config.transform
+appsettings.json
+
+# Ignore Node.js dependencies
+node_modules/
+packages/
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+
+# Ignore deployment and publish folders
+publish/
+
+# Ignore temporary and backup files
+*.tmp
+*.temp
+~$*
+
+# Ignore OS-specific files
+$RECYCLE.BIN/
+.DS_Store
+Thumbs.db
+
