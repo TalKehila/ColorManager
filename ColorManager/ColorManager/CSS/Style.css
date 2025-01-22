@@ -1,0 +1,376 @@
+﻿
+.color-box {
+    width: 50px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f9f9f9;
+}
+
+.gridview-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .gridview-table th, .gridview-table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .gridview-table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+.color-box {
+    width: 50px;
+    height: 20px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+.btn-edit, .btn-delete {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.add-button {
+    background-color: #28a745;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.update-button {
+    background-color: #007bff;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container input[type="text"], .form-container input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+
+
+.total-records {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* GridView Container */
+#gvColors {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    /* GridView Header */
+    #gvColors th {
+        background-color: #0073ff;
+        color: #ffffff;
+        padding: 15px;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        border-bottom: 3px solid #0051b3;
+    }
+
+    /* GridView Rows */
+    #gvColors td {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Row Hover Effect */
+    #gvColors tr:hover {
+        background-color: #f1f1f1;
+        cursor: pointer;
+    }
+
+    /* Even and Odd Row Colors */
+    #gvColors tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    #gvColors tr:nth-child(odd) {
+        background-color: #ffffff;
+    }
+
+/* Buttons (Edit/Delete) */
+.gv-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+    .gv-button.edit {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .gv-button.delete {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .gv-button.edit:hover {
+        background-color: #218838;
+    }
+
+    .gv-button.delete:hover {
+        background-color: #c82333;
+    }
+
+/* Color Box for Colors */
+.color-box {
+    width: 60px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+/* Total Records Label */
+.total-records {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0073ff;
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 5%;
+}
+
+
+
+.ורוד {
+    background-color: pink;
+}
+
+.אדום {
+    background-color: red;
+}
+
+.כחול {
+    background-color: blue;
+}
+
+.ירוק {
+    background-color: green;
+}
+
+.צהוב {
+    background-color: yellow;
+}
+
+.שחור {
+    background-color: black;
+    color: white;
+}
+
+.לבן {
+    background-color: white;
+}
+
+.כתום {
+    background-color: orange;
+}
+
+.סגול {
+    background-color: purple;
+}
+
+.חום {
+    background-color: brown;
+}
+
+.אפור {
+    background-color: gray;
+}
+
+.כסוף {
+    background-color: silver;
+}
+
+.זהב {
+    background-color: gold;
+}
+
+.תכלת {
+    background-color: lightblue;
+}
+
+.טורקיז {
+    background-color: turquoise;
+}
+
+.ארגמן {
+    background-color: crimson;
+}
+
+.בורדו {
+    background-color: maroon;
+}
+
+.ברונזה {
+    background-color: #cd7f32;
+}
+
+.שמנת {
+    background-color: ivory;
+}
+
+.מנטה {
+    background-color: mintcream;
+}
+
+.אדוםכהה {
+    background-color: darkred;
+}
+
+.ורדרד {
+    background-color: lightpink;
+}
+
+.אדוםבהיר {
+    background-color: lightcoral;
+}
+
+.כחולכהה {
+    background-color: navy;
+}
+
+.כחולבהיר {
+    background-color: lightblue;
+}
+
+.כחולמלכותי {
+    background-color: royalblue;
+}
+
+.ירוקכהה {
+    background-color: darkgreen;
+}
+
+.ירוקבהיר {
+    background-color: lightgreen;
+}
+
+.זית {
+    background-color: olive;
+}
+
+.צהובבהיר {
+    background-color: lightyellow;
+}
+
+.חרדל {
+    background-color: #ffdb58;
+}
+
+.אינדיגו {
+    background-color: indigo;
+}
+
+.לילך {
+    background-color: lavender;
+}
+
+.אלמוג {
+    background-color: coral;
+}
+
+.קרם {
+    background-color: beige;
+}
+
+.חול {
+    background-color: sandybrown;
+}
+
+.כחולקרח {
+    background-color: aliceblue;
+}
+
+.ורד {
+    background-color: rosybrown;
+}
+
+.מתכתי {
+    background-color: #6e7f80;
+}
+
+.פלדה {
+    background-color: #b0c4de;
+}
+
+.ברזל {
+    background-color: #43464b;
+}
+
+.stock-status {
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+.in-stock {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+
+.out-of-stock {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
